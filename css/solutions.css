@@ -42,3 +42,42 @@
 .ex-5-square:hover{
     transform: scale(2);
 }
+
+.ex-5-square:active{
+    transform: scale(0.5);
+}
+
+/* esercizio 6 */
+.ex-6-img:hover{
+    filter: grayscale();
+}
+
+/* esercizio 7 */
+.ex-7-img{
+    transition: filter 2s;
+}
+
+.ex-7-img:hover{
+    filter: grayscale() sepia(50%);
+}
+
+/* esercizio 8 */
+.ex-8-img{
+    transition: all 2s;
+}
+
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: saturate(1) sepia(0.82);
+}
+
+/* esercizio 9 */
+.ex-9-img{
+    transition: all 2s;
+}
+
+.ex-9-img:hover{
+    filter: saturate(1) sepia(0.82);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
