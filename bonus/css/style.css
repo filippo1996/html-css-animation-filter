@@ -13,6 +13,7 @@
 
 .sky__img{
     background-image: url(../img/volo.jpg);
+    background-repeat: no-repeat;
     width: 436px;
     height: 192px;
     animation: plane-flying 10s linear;
