@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sky{
+    max-width: 436px;
+    min-height: 192px;
+    margin: 20px auto;
+    background-color: skyblue;
+}
+
+.sky__img{
+    background-image: url(../img/volo.jpg);
+    width: 436px;
+    height: 192px;
+    animation: plane-flying 10s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes plane-flying{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
